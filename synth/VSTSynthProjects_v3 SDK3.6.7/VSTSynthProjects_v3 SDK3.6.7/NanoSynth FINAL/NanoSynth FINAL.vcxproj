@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5B0F9C0D-34C9-4AAC-A061-CDF8A286337A}</ProjectGuid>
+    <RootNamespace>NanoSynth FINAL</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetExt>.vst3</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetExt>.vst3</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetExt>.vst3</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetExt>.vst3</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../../..;../../../../../vstgui4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32=1;VSTGUI_DIRECT2D_SUPPORT=1;WINDOWS=1;DEVELOPMENT=1;_CRT_SECURE_NO_DEPRECATE=1;VSTGUI_LIVE_EDITING=1;VSTPLUGIN=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>../../../../..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)\$(ProjectName).vst3</OutputFile>
+      <ModuleDefinitionFile>NanoSynth FINAL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)NanoSynth FINAL.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>../../../../..;../../../../../vstgui4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32=1;VSTGUI_DIRECT2D_SUPPORT=1;WINDOWS=1;RELEASE=1;_CRT_SECURE_NO_DEPRECATE=1;VSTPLUGIN=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>../../../../..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)\$(ProjectName).vst3</OutputFile>
+      <ModuleDefinitionFile>NanoSynth FINAL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../../..;../../../../../vstgui4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32=1;VSTGUI_DIRECT2D_SUPPORT=1;WINDOWS=1;DEVELOPMENT=1;_CRT_SECURE_NO_DEPRECATE=1;VSTGUI_LIVE_EDITING=1;VSTPLUGIN=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>../../../../..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)\$(ProjectName).vst3</OutputFile>
+      <ModuleDefinitionFile>NanoSynth FINAL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)NanoSynth FINAL.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../../../..;../../../../../vstgui4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32=1;VSTGUI_DIRECT2D_SUPPORT=1;WINDOWS=1;RELEASE=1;_CRT_SECURE_NO_DEPRECATE=1;VSTPLUGIN=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>../../../../..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)\$(ProjectName).vst3</OutputFile>
+      <ModuleDefinitionFile>NanoSynth FINAL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\source\main\dllmain.cpp" />
+    <ClCompile Include="..\..\..\..\source\main\pluginfactoryvst3.cpp" />
+    <ClCompile Include="..\..\..\..\source\common\pluginview.cpp" />
+    <ClCompile Include="..\..\..\..\source\vst\vst2wrapper\vst2wrapper.sdk.cpp" />
+    <ClCompile Include="..\..\..\..\source\vst\vstaudioeffect.cpp" />
+    <ClCompile Include="..\..\..\..\source\vst\vstbus.cpp" />
+    <ClCompile Include="..\..\..\..\source\vst\vstcomponent.cpp" />
+    <ClCompile Include="..\..\..\..\source\vst\vstcomponentbase.cpp" />
+    <ClCompile Include="..\..\..\..\source\vst\vsteditcontroller.cpp" />
+    <ClCompile Include="..\..\..\..\source\vst\vstguieditor.cpp" />
+    <ClCompile Include="..\..\..\..\source\vst\vstinitiids.cpp" />
+    <ClCompile Include="..\..\..\..\source\vst\vstnoteexpressiontypes.cpp" />
+    <ClCompile Include="..\..\..\..\source\vst\vstparameters.cpp" />
+    <ClCompile Include="..\..\..\..\..\pluginterfaces\base\conststringtable.cpp" />
+    <ClCompile Include="..\..\..\..\..\pluginterfaces\base\funknown.cpp" />
+    <ClCompile Include="..\..\..\..\..\pluginterfaces\base\ustring.cpp" />
+    <ClCompile Include="..\..\..\..\..\vstgui4\vstgui\plugin-bindings\vst3editor.cpp" />
+    <ClCompile Include="..\..\..\..\..\vstgui4\vstgui\plugin-bindings\vst3groupcontroller.cpp" />
+    <ClCompile Include="..\..\..\..\..\vstgui4\vstgui\plugin-bindings\vst3padcontroller.cpp" />
+    <ClCompile Include="..\..\..\..\..\vstgui4\vstgui\vstgui_uidescription_win32.cpp" />
+    <ClCompile Include="..\..\..\..\..\vstgui4\vstgui\vstgui_win32.cpp" />
+    <ClCompile Include="source\DCA.cpp" />
+    <ClCompile Include="source\EnvelopeGenerator.cpp" />
+    <ClCompile Include="source\factory.cpp" />
+    <ClCompile Include="source\Filter.cpp" />
+    <ClCompile Include="source\LFO.cpp" />
+    <ClCompile Include="source\ModulationMatrix.cpp" />
+    <ClCompile Include="source\MoogLadderFilter.cpp" />
+    <ClCompile Include="source\Oscillator.cpp" />
+    <ClCompile Include="source\pluginobjects.cpp" />
+    <ClCompile Include="source\QBLimitedOscillator.cpp" />
+    <ClCompile Include="source\VAOnePoleFilter.cpp" />
+    <ClCompile Include="source\VSTSynthController.cpp" />
+    <ClCompile Include="source\VSTSynthProcessor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\source\main\pluginfactoryvst3.h" />
+    <ClInclude Include="..\..\..\..\source\common\pluginview.h" />
+    <ClInclude Include="..\..\..\..\source\vst\vstaudioeffect.h" />
+    <ClInclude Include="..\..\..\..\source\vst\vstbus.h" />
+    <ClInclude Include="..\..\..\..\source\vst\vstcomponent.h" />
+    <ClInclude Include="..\..\..\..\source\vst\vstcomponentbase.h" />
+    <ClInclude Include="..\..\..\..\source\vst\vsteditcontroller.h" />
+    <ClInclude Include="..\..\..\..\source\vst\vstguieditor.h" />
+    <ClInclude Include="..\..\..\..\source\vst\vstnoteexpressiontypes.h" />
+    <ClInclude Include="..\..\..\..\source\vst\vstparameters.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\conststringtable.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\falignpop.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\falignpush.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\fplatform.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\ftypes.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\funknown.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\ipluginbase.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\keycodes.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\ustring.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstattributes.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstaudioprocessor.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstcomponent.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivsteditcontroller.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstevents.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivsthostapplication.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstmessage.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstmidicontrollers.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstnoteexpression.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstparameterchanges.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstplugview.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstprocesscontext.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstunits.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\vstpresetkeys.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\vsttypes.h" />
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\gui\iplugview.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\..\..\..\..\vstgui4\vstgui\plugin-bindings\vst3editor.h" />
+    <ClInclude Include="..\..\..\..\..\vstgui4\vstgui\plugin-bindings\vst3groupcontroller.h" />
+    <ClInclude Include="..\..\..\..\..\vstgui4\vstgui\plugin-bindings\vst3padcontroller.h" />
+    <ClInclude Include="source\DCA.h" />
+    <ClInclude Include="source\EnvelopeGenerator.h" />
+    <ClInclude Include="source\Filter.h" />
+    <ClInclude Include="source\LFO.h" />
+    <ClInclude Include="source\logscale.h" />
+    <ClInclude Include="source\ModulationMatrix.h" />
+    <ClInclude Include="source\MoogLadderFilter.h" />
+    <ClInclude Include="source\Oscillator.h" />
+    <ClInclude Include="source\pluginconstants.h" />
+    <ClInclude Include="source\QBLimitedOscillator.h" />
+    <ClInclude Include="source\synthfunctions.h" />
+    <ClInclude Include="source\SynthParamLimits.h" />
+    <ClInclude Include="source\VAOnePoleFilter.h" />
+    <ClInclude Include="source\version.h" />
+    <ClInclude Include="source\VSTSynthController.h" />
+    <ClInclude Include="source\VSTSynthProcessor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NanoSynth FINAL.def" />
+    <None Include="resources\vstgui.uidesc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NanoSynth FINAL.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\base\win\base.vcxproj">
+      <Project>{5755cc40-c699-491b-bd7c-5d841c26c28d}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\amberonoff.png" />
+    <Image Include="resources\background.png" />
+    <Image Include="resources\groupframe.png" />
+    <Image Include="resources\knob.png" />
+    <Image Include="resources\knob2.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

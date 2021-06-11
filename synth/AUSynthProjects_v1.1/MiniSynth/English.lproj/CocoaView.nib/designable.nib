@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="1060" defaultVersion="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MiniSynthViewFactory">
+            <connections>
+                <outlet property="uiFreshlyLoadedView" destination="22" id="32"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <customView id="22" userLabel="CocoaView" customClass="MiniSynthView">
+            <rect key="frame" x="0.0" y="0.0" width="808" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <box autoresizesSubviews="NO" horizontalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="mzr-6I-5ft">
+                    <rect key="frame" x="1070" y="-23" width="5" height="13"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <box autoresizesSubviews="NO" horizontalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="K27-CL-7UV">
+                    <rect key="frame" x="1134" y="-23" width="5" height="13"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <customView id="ggB-aw-zr5" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="4" y="263" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="O7r-qz-SWY"/>
+                    </connections>
+                </customView>
+                <customView id="drO-DP-LJG" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="84" y="263" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="8Yz-ED-AcJ"/>
+                    </connections>
+                </customView>
+                <customView id="Usn-2A-dxu" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="163" y="263" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="cU8-sk-3dg"/>
+                    </connections>
+                </customView>
+                <customView id="niL-Sa-Q1D" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="322" y="263" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="QTG-ZP-XDp"/>
+                    </connections>
+                </customView>
+                <customView id="U8p-VN-4Fu" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="403" y="263" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="Hbe-5h-cjN"/>
+                    </connections>
+                </customView>
+                <customView id="Tst-R9-yor" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="562" y="263" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="aCd-Iq-YcX"/>
+                    </connections>
+                </customView>
+                <customView id="Le3-IM-2N2" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="642" y="263" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="P9I-Z3-1tm"/>
+                    </connections>
+                </customView>
+                <customView id="AfD-Ng-oUV" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="722" y="263" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="CeD-yn-CTx"/>
+                    </connections>
+                </customView>
+                <customView id="dKj-Ve-KKG" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="722" y="178" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="Pik-JU-1W6"/>
+                    </connections>
+                </customView>
+                <customView id="hct-Xb-s3T" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="483" y="93" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="zVV-ud-Qc8"/>
+                    </connections>
+                </customView>
+                <customView id="zaV-12-LId" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="562" y="93" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="9cR-fu-sY6"/>
+                    </connections>
+                </customView>
+                <customView id="syb-ZX-hR5" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="642" y="93" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="XSs-2O-a0b"/>
+                    </connections>
+                </customView>
+                <customView id="RrQ-DO-Uc4" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="722" y="93" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="JsD-oa-9z8"/>
+                    </connections>
+                </customView>
+                <customView id="sbT-kh-dTY" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="403" y="178" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="uyd-Gj-rCf"/>
+                    </connections>
+                </customView>
+                <customView id="78D-8k-kwY" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="322" y="178" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="2ZB-bx-HK3"/>
+                    </connections>
+                </customView>
+                <customView id="KJ0-cr-BJ9" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="322" y="93" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="rGR-wE-uiy"/>
+                    </connections>
+                </customView>
+                <customView id="l9z-8l-xwq" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="322" y="10" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="M9a-Am-vvZ"/>
+                    </connections>
+                </customView>
+                <customView id="TEf-y2-J68" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="84" y="8" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="lFK-Rf-LnQ"/>
+                    </connections>
+                </customView>
+                <customView id="WOe-Zn-FyT" customClass="WPOptionMenuGroupMS">
+                    <rect key="frame" x="242" y="303" width="80" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPOptionMenuItemChanged:" target="22" id="uhM-nk-cwq"/>
+                    </connections>
+                </customView>
+                <customView id="Sn6-D6-iXK" customClass="WPOptionMenuGroupMS">
+                    <rect key="frame" x="483" y="303" width="80" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPOptionMenuItemChanged:" target="22" id="rHY-5s-GYx"/>
+                    </connections>
+                </customView>
+                <customView id="U94-AP-bfN" customClass="WPOptionMenuGroupMS">
+                    <rect key="frame" x="483" y="218" width="80" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPOptionMenuItemChanged:" target="22" id="Xfm-xp-R14"/>
+                    </connections>
+                </customView>
+                <customView id="hvx-RA-qoY" customClass="WPOptionMenuGroupMS">
+                    <rect key="frame" x="562" y="218" width="80" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPOptionMenuItemChanged:" target="22" id="4S1-Rs-cRs"/>
+                    </connections>
+                </customView>
+                <customView id="Hn9-cE-lS5" customClass="WPOptionMenuGroupMS">
+                    <rect key="frame" x="562" y="178" width="80" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPOptionMenuItemChanged:" target="22" id="cYc-aF-ZEd"/>
+                    </connections>
+                </customView>
+                <customView id="9MP-aB-gwo" customClass="WPOptionMenuGroupMS">
+                    <rect key="frame" x="642" y="218" width="80" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPOptionMenuItemChanged:" target="22" id="Rgl-8U-70t"/>
+                    </connections>
+                </customView>
+                <customView id="Uqd-v4-XVv" customClass="WPOptionMenuGroupMS">
+                    <rect key="frame" x="642" y="178" width="80" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPOptionMenuItemChanged:" target="22" id="dcO-Nk-GvE"/>
+                    </connections>
+                </customView>
+                <customView id="WRg-ui-bpN" customClass="WPOptionMenuGroupMS">
+                    <rect key="frame" x="483" y="178" width="80" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPOptionMenuItemChanged:" target="22" id="zs6-ce-EVA"/>
+                    </connections>
+                </customView>
+                <customView id="rOg-Qu-qiQ" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="163" y="178" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="vKU-cB-uD6"/>
+                    </connections>
+                </customView>
+                <customView id="HVV-tb-OOf" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="242" y="178" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="Rii-b2-je3"/>
+                    </connections>
+                </customView>
+                <customView id="SBI-IY-VFn" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="242" y="93" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="wsz-8w-Jpa"/>
+                    </connections>
+                </customView>
+                <customView id="JPd-hR-kph" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="163" y="93" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="oQ9-mm-0Fa"/>
+                    </connections>
+                </customView>
+                <customView id="VWx-K4-cos" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="84" y="178" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="sAL-iC-pWs"/>
+                    </connections>
+                </customView>
+                <customView id="D4U-di-0uu" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="84" y="93" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="0uo-uo-dNy"/>
+                    </connections>
+                </customView>
+                <customView id="vjc-Nz-oWn" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="4" y="178" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="6t2-QG-8wO"/>
+                    </connections>
+                </customView>
+                <customView id="oNI-rS-FIq" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="4" y="93" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="Niy-ZX-9q0"/>
+                    </connections>
+                </customView>
+                <customView id="FUs-dp-3Z2" customClass="WPRotaryKnobMS">
+                    <rect key="frame" x="4" y="8" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="33M-vK-4yX"/>
+                    </connections>
+                </customView>
+                <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="2EE-8D-LNU">
+                    <rect key="frame" x="8" y="344" width="71" height="5"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="qs8-4D-6iB">
+                    <rect key="frame" x="88" y="344" width="71" height="5"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="H7j-F4-IGa">
+                    <rect key="frame" x="167" y="344" width="71" height="5"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="SmO-wQ-b12">
+                    <rect key="frame" x="246" y="344" width="71" height="5"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="4N1-hL-hqx">
+                    <rect key="frame" x="326" y="344" width="71" height="5"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="nQk-eI-NDC">
+                    <rect key="frame" x="406" y="344" width="71" height="5"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="pfb-BI-acT">
+                    <rect key="frame" x="488" y="344" width="308" height="5"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <textField verticalHuggingPriority="750" id="6oG-e1-zcY">
+                    <rect key="frame" x="6" y="351" width="77" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Oscillators" id="U0Y-C8-ViJ">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="SgJ-m3-VI1">
+                    <rect key="frame" x="86" y="351" width="77" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Filter" id="fbJ-Po-RcV">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="kVD-m3-P7l">
+                    <rect key="frame" x="165" y="351" width="77" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="EG" id="BOL-SE-ceE">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="Jh7-pH-UGP">
+                    <rect key="frame" x="244" y="351" width="77" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="LFO" id="GUk-Qo-8k8">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="Wub-dv-xes">
+                    <rect key="frame" x="324" y="351" width="77" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Mod" id="nLm-aW-Qri">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="Q7F-J5-o2Y">
+                    <rect key="frame" x="405" y="351" width="77" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="DCA" id="iZ6-yE-wLc">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="9ax-Vu-XHZ">
+                    <rect key="frame" x="603" y="351" width="77" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Voice" id="Nvy-Hc-YKD">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="22B-EV-7QY">
+                    <rect key="frame" x="537" y="10" width="209" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="MiniSynth www willpirkle.com" id="lK6-8z-YE4">
+                        <font key="font" size="14" name="LucidaGrande"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <connections>
+                <outlet property="wpOMG_0" destination="WOe-Zn-FyT" id="oJ9-MD-J8m"/>
+                <outlet property="wpOMG_1" destination="Sn6-D6-iXK" id="Dug-Uf-l1I"/>
+                <outlet property="wpOMG_2" destination="U94-AP-bfN" id="mhI-aw-77W"/>
+                <outlet property="wpOMG_3" destination="WRg-ui-bpN" id="ivg-4k-8pM"/>
+                <outlet property="wpOMG_4" destination="hvx-RA-qoY" id="0yv-dv-xCC"/>
+                <outlet property="wpOMG_5" destination="Hn9-cE-lS5" id="Dn0-3B-x4B"/>
+                <outlet property="wpOMG_6" destination="9MP-aB-gwo" id="0mq-yl-2KV"/>
+                <outlet property="wpOMG_7" destination="Uqd-v4-XVv" id="ZTF-mC-fwL"/>
+                <outlet property="wpRotaryKnob_0" destination="ggB-aw-zr5" id="MqN-b5-hUf"/>
+                <outlet property="wpRotaryKnob_1" destination="vjc-Nz-oWn" id="GFk-JT-hNN"/>
+                <outlet property="wpRotaryKnob_10" destination="JPd-hR-kph" id="s0s-Jd-vsC"/>
+                <outlet property="wpRotaryKnob_13" destination="HVV-tb-OOf" id="6yl-nz-4xh"/>
+                <outlet property="wpRotaryKnob_14" destination="SBI-IY-VFn" id="jeK-QI-Ksn"/>
+                <outlet property="wpRotaryKnob_16" destination="niL-Sa-Q1D" id="q3L-Q7-t1L"/>
+                <outlet property="wpRotaryKnob_17" destination="78D-8k-kwY" id="kUb-v7-gk7"/>
+                <outlet property="wpRotaryKnob_18" destination="KJ0-cr-BJ9" id="v98-vr-D8S"/>
+                <outlet property="wpRotaryKnob_19" destination="l9z-8l-xwq" id="q04-Ov-Y5Y"/>
+                <outlet property="wpRotaryKnob_2" destination="oNI-rS-FIq" id="p50-gP-Msy"/>
+                <outlet property="wpRotaryKnob_20" destination="U8p-VN-4Fu" id="psn-9B-dzC"/>
+                <outlet property="wpRotaryKnob_21" destination="sbT-kh-dTY" id="liQ-D6-LzC"/>
+                <outlet property="wpRotaryKnob_24" destination="Tst-R9-yor" id="XX0-uL-MQz"/>
+                <outlet property="wpRotaryKnob_25" destination="Le3-IM-2N2" id="J0N-I8-mFJ"/>
+                <outlet property="wpRotaryKnob_26" destination="AfD-Ng-oUV" id="Hzh-uu-n3W"/>
+                <outlet property="wpRotaryKnob_27" destination="dKj-Ve-KKG" id="8vf-Va-iSz"/>
+                <outlet property="wpRotaryKnob_28" destination="hct-Xb-s3T" id="CWR-g1-zcA"/>
+                <outlet property="wpRotaryKnob_29" destination="zaV-12-LId" id="qd9-j6-nNN"/>
+                <outlet property="wpRotaryKnob_3" destination="FUs-dp-3Z2" id="jac-Zj-vJp"/>
+                <outlet property="wpRotaryKnob_30" destination="syb-ZX-hR5" id="pCH-ha-WkN"/>
+                <outlet property="wpRotaryKnob_31" destination="RrQ-DO-Uc4" id="mJH-g8-13P"/>
+                <outlet property="wpRotaryKnob_4" destination="drO-DP-LJG" id="3qZ-uL-eBQ"/>
+                <outlet property="wpRotaryKnob_5" destination="VWx-K4-cos" id="8oA-eK-DGQ"/>
+                <outlet property="wpRotaryKnob_6" destination="D4U-di-0uu" id="m9a-Eo-PVx"/>
+                <outlet property="wpRotaryKnob_7" destination="TEf-y2-J68" id="ZLn-gt-TOf"/>
+                <outlet property="wpRotaryKnob_8" destination="Usn-2A-dxu" id="jBu-0T-MGv"/>
+                <outlet property="wpRotaryKnob_9" destination="rOg-Qu-qiQ" id="aBJ-z8-c71"/>
+            </connections>
+        </customView>
+    </objects>
+</document>

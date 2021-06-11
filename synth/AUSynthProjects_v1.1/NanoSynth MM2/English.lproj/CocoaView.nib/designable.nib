@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="1060" defaultVersion="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NanoSynthViewFactory">
+            <connections>
+                <outlet property="uiFreshlyLoadedView" destination="22" id="32"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <customView id="22" userLabel="CocoaView" customClass="NanoSynthView">
+            <rect key="frame" x="0.0" y="0.0" width="808" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <box autoresizesSubviews="NO" horizontalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="mzr-6I-5ft">
+                    <rect key="frame" x="1070" y="-23" width="5" height="13"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <box autoresizesSubviews="NO" horizontalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="K27-CL-7UV">
+                    <rect key="frame" x="1134" y="-23" width="5" height="13"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <textField verticalHuggingPriority="750" id="22B-EV-7QY">
+                    <rect key="frame" x="508" y="6" width="213" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="NanoSynth www willpirkle.com" id="lK6-8z-YE4">
+                        <font key="font" size="14" name="LucidaGrande"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <customView id="zZT-dV-jBC" customClass="WPOptionMenuGroupNS">
+                    <rect key="frame" x="92" y="303" width="80" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPOptionMenuItemChanged:" target="22" id="jzD-rz-vn8"/>
+                    </connections>
+                </customView>
+                <customView id="SlP-ww-dQV" customClass="WPOptionMenuGroupNS">
+                    <rect key="frame" x="92" y="263" width="80" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPOptionMenuItemChanged:" target="22" id="adR-pf-PWZ"/>
+                    </connections>
+                </customView>
+                <customView id="una-yo-oce" customClass="WPOptionMenuGroupNS">
+                    <rect key="frame" x="4" y="303" width="80" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPOptionMenuItemChanged:" target="22" id="gjV-0Q-0zb"/>
+                    </connections>
+                </customView>
+                <customView id="PBC-E9-Yg0" customClass="WPRotaryKnobNS">
+                    <rect key="frame" x="92" y="178" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="2E6-p5-AcB"/>
+                    </connections>
+                </customView>
+                <customView id="iFh-25-bwP" customClass="WPRotaryKnobNS">
+                    <rect key="frame" x="92" y="92" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="lK4-Sw-dIP"/>
+                    </connections>
+                </customView>
+                <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="cZz-hn-oKC">
+                    <rect key="frame" x="8" y="344" width="71" height="5"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="UWf-bf-gEF">
+                    <rect key="frame" x="96" y="344" width="71" height="5"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <textField verticalHuggingPriority="750" id="y5D-UT-TG0">
+                    <rect key="frame" x="6" y="351" width="77" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Oscillator" id="Vrd-Is-C0U">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="FpZ-SE-awC">
+                    <rect key="frame" x="93" y="351" width="77" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="LFO" id="scs-YH-3Ii">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <customView id="C8c-Ps-tqP" customClass="WPRotaryKnobNS">
+                    <rect key="frame" x="179" y="263" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="P4J-52-xQy"/>
+                    </connections>
+                </customView>
+                <customView id="cwn-kV-VBz" customClass="WPRotaryKnobNS">
+                    <rect key="frame" x="179" y="178" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="87u-YF-Tax"/>
+                    </connections>
+                </customView>
+                <customView id="Mku-DC-udw" customClass="WPRotaryKnobNS">
+                    <rect key="frame" x="179" y="92" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="Lnz-pB-31g"/>
+                    </connections>
+                </customView>
+                <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="tRt-5X-gwI">
+                    <rect key="frame" x="184" y="344" width="71" height="5"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <textField verticalHuggingPriority="750" id="mOi-n2-KfJ">
+                    <rect key="frame" x="181" y="351" width="77" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="EG" id="jy5-oZ-KDg">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <customView id="5eO-Az-V1T" customClass="WPRotaryKnobNS">
+                    <rect key="frame" x="179" y="6" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="m1U-LF-ACg"/>
+                    </connections>
+                </customView>
+                <customView id="f1L-wt-2rw" customClass="WPRotaryKnobNS">
+                    <rect key="frame" x="4" y="178" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="eIt-Pb-SzS"/>
+                    </connections>
+                </customView>
+                <customView id="y94-jv-PzH" customClass="WPRotaryKnobNS">
+                    <rect key="frame" x="267" y="263" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="aFK-HB-Lfl"/>
+                    </connections>
+                </customView>
+                <customView id="Zo2-mv-06y" customClass="WPRotaryKnobNS">
+                    <rect key="frame" x="267" y="178" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="aDd-wS-Opn"/>
+                    </connections>
+                </customView>
+                <customView id="LIA-3Y-wPx" customClass="WPRotaryKnobNS">
+                    <rect key="frame" x="267" y="92" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="pfc-ql-kTQ"/>
+                    </connections>
+                </customView>
+                <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="0hI-GO-AAx">
+                    <rect key="frame" x="270" y="344" width="71" height="5"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <textField verticalHuggingPriority="750" id="4bw-fI-n7X">
+                    <rect key="frame" x="269" y="351" width="77" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="DCA" id="7TM-ay-I7d">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <customView id="J0P-Bt-CaK" customClass="WPOptionMenuGroupNS">
+                    <rect key="frame" x="455" y="303" width="80" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPOptionMenuItemChanged:" target="22" id="bqz-Rl-Ga7"/>
+                    </connections>
+                </customView>
+                <customView id="5z1-lb-T6D" customClass="WPOptionMenuGroupNS">
+                    <rect key="frame" x="543" y="303" width="80" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPOptionMenuItemChanged:" target="22" id="nez-R4-8EC"/>
+                    </connections>
+                </customView>
+                <customView id="hdh-H3-Ebj" customClass="WPOptionMenuGroupNS">
+                    <rect key="frame" x="631" y="303" width="80" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPOptionMenuItemChanged:" target="22" id="6Ru-Jt-5ER"/>
+                    </connections>
+                </customView>
+                <customView id="geL-u5-6JV" customClass="WPOptionMenuGroupNS">
+                    <rect key="frame" x="631" y="263" width="80" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPOptionMenuItemChanged:" target="22" id="Q9z-Sr-MVa"/>
+                    </connections>
+                </customView>
+                <customView id="KTq-Q0-G1g" customClass="WPOptionMenuGroupNS">
+                    <rect key="frame" x="455" y="263" width="80" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPOptionMenuItemChanged:" target="22" id="XRz-jx-YL4"/>
+                    </connections>
+                </customView>
+                <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="08Y-h1-SVn">
+                    <rect key="frame" x="460" y="344" width="308" height="5"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <textField verticalHuggingPriority="750" id="0Kz-7f-PK0">
+                    <rect key="frame" x="575" y="351" width="77" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Voice" id="mkw-xy-zhF">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <customView id="Png-Ny-Y8T" customClass="WPRotaryKnobNS">
+                    <rect key="frame" x="355" y="263" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="OJW-LL-tLs"/>
+                    </connections>
+                </customView>
+                <customView id="r2T-Ke-Ief" customClass="WPRotaryKnobNS">
+                    <rect key="frame" x="355" y="178" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="2vP-E5-uKI"/>
+                    </connections>
+                </customView>
+                <customView id="gLJ-3G-I9h" customClass="WPRotaryKnobNS">
+                    <rect key="frame" x="355" y="93" width="80" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="WPRotaryKnobChanged:" target="22" id="Dmb-mi-Gw5"/>
+                    </connections>
+                </customView>
+                <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="gbg-4s-Uuz">
+                    <rect key="frame" x="359" y="344" width="71" height="5"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+                <textField verticalHuggingPriority="750" id="6sO-Fg-kwO">
+                    <rect key="frame" x="357" y="351" width="77" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Filter" id="VSu-5V-L59">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <connections>
+                <outlet property="wpOMG_0" destination="una-yo-oce" id="2OT-Ou-Bth"/>
+                <outlet property="wpOMG_1" destination="zZT-dV-jBC" id="z3Z-it-ylD"/>
+                <outlet property="wpOMG_2" destination="SlP-ww-dQV" id="3NY-eT-LVE"/>
+                <outlet property="wpOMG_3" destination="J0P-Bt-CaK" id="9Yo-Ju-ctC"/>
+                <outlet property="wpOMG_4" destination="KTq-Q0-G1g" id="Ocl-Bp-IuK"/>
+                <outlet property="wpOMG_5" destination="5z1-lb-T6D" id="Ucg-fA-os5"/>
+                <outlet property="wpOMG_6" destination="hdh-H3-Ebj" id="4iX-9O-rul"/>
+                <outlet property="wpOMG_7" destination="geL-u5-6JV" id="gvD-b4-mRi"/>
+                <outlet property="wpRotaryKnob_0" destination="PBC-E9-Yg0" id="yHS-IF-DHL"/>
+                <outlet property="wpRotaryKnob_1" destination="iFh-25-bwP" id="BQ6-8z-Ng7"/>
+                <outlet property="wpRotaryKnob_10" destination="r2T-Ke-Ief" id="7N8-pO-kW9"/>
+                <outlet property="wpRotaryKnob_11" destination="gLJ-3G-I9h" id="LaW-90-B9s"/>
+                <outlet property="wpRotaryKnob_12" destination="f1L-wt-2rw" id="PPa-pg-OCT"/>
+                <outlet property="wpRotaryKnob_2" destination="C8c-Ps-tqP" id="Li5-VP-f2N"/>
+                <outlet property="wpRotaryKnob_3" destination="cwn-kV-VBz" id="NPg-CR-DhW"/>
+                <outlet property="wpRotaryKnob_4" destination="Mku-DC-udw" id="4uF-Kh-9Qx"/>
+                <outlet property="wpRotaryKnob_5" destination="5eO-Az-V1T" id="Puq-dt-qjb"/>
+                <outlet property="wpRotaryKnob_6" destination="y94-jv-PzH" id="AML-44-pWZ"/>
+                <outlet property="wpRotaryKnob_7" destination="Zo2-mv-06y" id="ZfW-mq-lED"/>
+                <outlet property="wpRotaryKnob_8" destination="LIA-3Y-wPx" id="ntp-ly-1xs"/>
+                <outlet property="wpRotaryKnob_9" destination="Png-Ny-Y8T" id="M0v-cd-nGY"/>
+            </connections>
+        </customView>
+    </objects>
+</document>

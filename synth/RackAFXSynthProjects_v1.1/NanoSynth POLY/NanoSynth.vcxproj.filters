@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="RAFX Core">
+      <UniqueIdentifier>{489ad430-e8f5-4c3d-b530-db814499d3d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Synth Core">
+      <UniqueIdentifier>{397eab5e-0064-447e-b9b2-555771509516}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NanoSynth.cpp">
+      <Filter>RAFX Core</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin.cpp">
+      <Filter>RAFX Core</Filter>
+    </ClCompile>
+    <ClCompile Include="pluginobjects.cpp">
+      <Filter>RAFX Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RackAFXDLL.cpp">
+      <Filter>RAFX Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DCA.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvelopeGenerator.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LFO.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ModulationMatrix.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="MoogLadderFilter.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Oscillator.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="QBLimitedOscillator.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="VAOnePoleFilter.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NanoSynth.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginconstants.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RackAFXDLL.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DCA.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvelopeGenerator.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="LFO.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ModulationMatrix.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MoogLadderFilter.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Oscillator.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="QBLimitedOscillator.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="synthfunctions.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="VAOnePoleFilter.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Synth Core">
+      <UniqueIdentifier>{88a8d96e-941b-4faa-b934-e99a39b72d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAFX Core">
+      <UniqueIdentifier>{c2c1aa17-2c9d-469f-94c2-1809c12dd59a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DCA.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DigiSynthVoice.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvelopeGenerator.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="KThreeFiveFilter.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LFO.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ModulationMatrix.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Oscillator.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleOscillator.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SEMFilter.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="VAOnePoleFilter.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorPathGenerator.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorSynthVoice.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Voice.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin.cpp">
+      <Filter>RAFX Core</Filter>
+    </ClCompile>
+    <ClCompile Include="pluginobjects.cpp">
+      <Filter>RAFX Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RackAFXDLL.cpp">
+      <Filter>RAFX Core</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorSynth.cpp">
+      <Filter>RAFX Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DCA.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DigiSynthVoice.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvelopeGenerator.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="KThreeFiveFilter.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="LFO.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ModulationMatrix.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Oscillator.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleOscillator.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SEMFilter.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="synthfunctions.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="VAOnePoleFilter.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorPathGenerator.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorSynthVoice.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Voice.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginconstants.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RackAFXDLL.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorSynth.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

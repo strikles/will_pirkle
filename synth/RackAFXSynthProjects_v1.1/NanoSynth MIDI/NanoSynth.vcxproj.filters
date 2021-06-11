@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="RAFX Core">
+      <UniqueIdentifier>{6543c58b-f7b7-464e-8f71-09bcbf4dd330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Synth Core">
+      <UniqueIdentifier>{2e18560d-96d0-48a4-b070-0351b9ffa04e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NanoSynth.cpp">
+      <Filter>RAFX Core</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin.cpp">
+      <Filter>RAFX Core</Filter>
+    </ClCompile>
+    <ClCompile Include="pluginobjects.cpp">
+      <Filter>RAFX Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RackAFXDLL.cpp">
+      <Filter>RAFX Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NanoSynth.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginconstants.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RackAFXDLL.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+    <ClInclude Include="synthfunctions.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h" />
+  </ItemGroup>
+</Project>

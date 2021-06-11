@@ -1,0 +1,12 @@
+To install and play with this demo project:
+
+The <ProjectFolder> is the folder that accompanies this .txt file. It includes the complete RackAFX Project and source code.
+
+Drop the entire folder into your RackAFX Projects folder (in RackAFX use File -> Open Projects Folder). 
+
+Open the project by navigating to the .PRJ file in the Project Folder. The Visual Studio project file is
+setup for VS2015. If using a later version, either choose YES when asked to upgrade/retarget the project, 
+or right click on the project in the Solution Explorer and choose "Retarget Projects" (note that some versions
+of Visual Studio do NOT have this option - it is a bug in Visual Studio). If necessary, manually upgrade compiler
+version in Project Properties. 
+

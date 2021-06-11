@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Synth Core">
+      <UniqueIdentifier>{c0ea4544-e732-4613-94f0-451b34cf98eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAFX Core">
+      <UniqueIdentifier>{78c0b84b-50ec-4c1e-90bd-ba248fd73757}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AniSynthVoice.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DCA.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DigiSynthVoice.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DiodeLadderFilter.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvelopeGenerator.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="KThreeFiveFilter.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LFO.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ModulationMatrix.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Oscillator.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleOscillator.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SEMFilter.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="VAOnePoleFilter.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorPathGenerator.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorSynthVoice.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Voice.cpp">
+      <Filter>Synth Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AniSynth.cpp">
+      <Filter>RAFX Core</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin.cpp">
+      <Filter>RAFX Core</Filter>
+    </ClCompile>
+    <ClCompile Include="pluginobjects.cpp">
+      <Filter>RAFX Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RackAFXDLL.cpp">
+      <Filter>RAFX Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AniSynthVoice.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DCA.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DigiSynthVoice.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DiodeLadderFilter.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvelopeGenerator.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="KThreeFiveFilter.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="LFO.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ModulationMatrix.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Oscillator.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleOscillator.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SEMFilter.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="synthfunctions.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="VAOnePoleFilter.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorPathGenerator.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorSynthVoice.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Voice.h">
+      <Filter>Synth Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AniSynth.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginconstants.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RackAFXDLL.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h">
+      <Filter>RAFX Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

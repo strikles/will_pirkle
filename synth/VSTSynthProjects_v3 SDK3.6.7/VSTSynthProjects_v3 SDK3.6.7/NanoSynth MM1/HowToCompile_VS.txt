@@ -1,0 +1,17 @@
+VS2010
+Open the <project>_vc10.sln file and go.
+
+VS2012
+Open the <project>_vc10.sln file
+You will be prompted to upgrade the project, choose YES
+After the upgrade, go.
+
+VS2013
+Open the <project>.sln file and go.
+
+VS2015
+Open the <project>.sln file
+You will be prompted to upgrade the project, choose YES
+After the upgrade, go.
+
+The reason that I do not provide individual VS .sln files is that the VST3 SDK's "base" project does not include the additional Visual Studio files and must be ugraded manually via Visual Studio (thus the prompts for upgrades in VS2012 and VS2015)

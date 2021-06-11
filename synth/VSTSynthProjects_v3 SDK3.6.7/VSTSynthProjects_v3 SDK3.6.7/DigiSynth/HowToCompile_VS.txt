@@ -1,0 +1,11 @@
+Prepare VST3 SDK 3.6.7
+Follow the instructions at www.willpirkle.com/Forum for preparing the VST3 SDK. In release 3.6.7 Steinberg made changes that require this extra step.
+
+VS2013
+Open the <project>.sln file and use BUILD -> Rebuild Solution
+
+VS2015
+Open the <project>.sln file
+You will be prompted to upgrade the project, choose YES
+
+Then use Build -> Rebuild Solution
